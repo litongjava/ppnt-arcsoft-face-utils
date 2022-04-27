@@ -1,5 +1,5 @@
 ## ppnt-arcsoft-face-utils
-人脸识别库封装
+基于虹软人脸识别SDK封装的人脸识别库,自动适应linux和windows环境
 ### ppnt-arcsoft-face-utils快速入门
 #### 快速入门
 引入依赖

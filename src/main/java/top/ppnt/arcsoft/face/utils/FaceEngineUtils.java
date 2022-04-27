@@ -29,14 +29,14 @@ public class FaceEngineUtils {
   private static String libPath;
 
   static {
-    appId = FaceConstans.APP_ID;
+    appId = FaceAppId.getAppId();
     String osName = System.getProperty("os.name");
     if (osName.startsWith("Windows")) {
-      sdkKey = FaceConstans.SDK_KEY_WIN;
-      libPath = FaceConstans.LIB_PATH_WIN;
+      sdkKey = FaceAppId.getSdkKeyWin();
+      libPath = FaceAppId.getLibPathWin();
     } else {
-      sdkKey = FaceConstans.SDK_KEY_LINUX;
-      libPath = FaceConstans.LIB_PATH_LINUX;
+      sdkKey = FaceAppId.getSdkKeyLinux();
+      libPath = FaceAppId.getSdkKeyLinux();
     }
   }
 
